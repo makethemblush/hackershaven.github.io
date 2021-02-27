@@ -47,7 +47,7 @@ function httpGet(url)
 function refer(package) {
     // Send registrant details to post
     const proxyurl = "https://cors-anywhere.herokuapp.com/";
-    const url = "http://server-hh.000webhostapp.com/post.php?" + package;
+    const url = "https://server-hh.000webhostapp.com/post.php?" + package;
 
     /*fetch(url)
     .then(response => response.text())
