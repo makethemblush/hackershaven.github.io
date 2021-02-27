@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+    <link rel="icon" href="./images/favicon.png" type="image/png" sizes="16x16">
+    <title>HackersHaven :: Register</title>
+    <link href="./styles/styles.css" rel="stylesheet">
+    <script src="./static/script.js"></script>
+  </head>
+  <body onload="get_addr();" style="font-family: Verdana;">
+
+  <div class="container">
+    <h3>Groupchat registration form :: HackersHaven</h3>
+    <form action="thank-you.html" style="overflow: hidden;">
+      <label for="nick">Nickname</label>
+      <input type="text" id="nick" name="nick" placeholder="Your nickname.." required>
+
+      <label for="IGID">Instagram ID/Username</label>
+      <input type="text" id="IGID" name="IGID" placeholder="@example" required>
+
+      <label for="learn">Do you want to learn coding/hacking?</label>
+      <select id="learn" name="learn" required>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+
+      <label for="referral">How did you find us?</label>
+      <select id="referral" name="referral" required>
+        <option value="instagram">Through Instagram</option>
+        <option value="friend">Through a friend</option>
+        <option value="online">Online</option>
+        <option value="somewhere_else">Somewhere else</option>
+      </select>
+
+      <label for="goals">Any goals? or favorite programming language? (optional)</label>
+      <textarea id="goals" name="goals" placeholder="Write something.." style="height:100px"></textarea>
+
+      <input type="checkbox" id="edu_accept" required>
+      <label for="edu_accept">I accept that the resources shared are for <u>EDUCATIONAL PURPOSES ONLY</u></label><br>
+
+      <input type="checkbox" id="priv_accept" required>
+      <label for="priv_accept">I accept the <a href="privacy.html">Privacy policy</a> statement</label><br>
+      <p id="addr" hidden></p>
+
+      <input onclick="get_form_data();" type="submit" value="Submit">
+    </form>
+  </div>
+
+  </body>
+</html>
