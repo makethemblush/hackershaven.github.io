@@ -19,8 +19,6 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  float: right;
-  clear: both;
 }
 
 input[type=submit]:hover {
