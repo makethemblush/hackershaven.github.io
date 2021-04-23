@@ -1,1 +1,1 @@
-official site for registrations
+Site has moved to https://hackershaven.eu/
