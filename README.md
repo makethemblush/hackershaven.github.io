@@ -1,1 +1,1 @@
-Site has moved to https://hackershaven.eu/
+Site disabled.
